@@ -1,0 +1,588 @@
+{
+  "total_questions": 20,
+  "retrieval": {
+    "hit_rate": 0.85,
+    "mrr": 0.6767,
+    "ndcg_at_k": 0.7115,
+    "context_precision": 0.54
+  },
+  "answer": {
+    "avg_faithfulness": 4.5,
+    "avg_relevance": 4.9
+  },
+  "latency": {
+    "p50_ms": 39863.21,
+    "p95_ms": 49350.02,
+    "avg_ms": 37969.33
+  },
+  "per_case": [
+    {
+      "question": "What is retrieval augmented generation?",
+      "answer": "Retrieval-Augmented Generation (RAG) is a technique that enhances the performance of generative language models by integrating information retrieval techniques [Source 1: Evaluation of Retrieval-Augmented Generation.pdf, Source 2: RAGAS.pdf, Source 3: Evaluation of Retrieval-Augmented Generation.pdf]. It addresses the limitation of standalone generative language models, which tend to produce responses that may not be grounded in facts, by retrieving relevant information from external sources [Source 2: RAGAS.pdf]. This fusion of retrieval and generation capabilities enables the creation of responses that are not only contextually appropriate but also informed by the most current and accurate information available [Source 3: Evaluation of Retrieval-Augmented Generation.pdf].",
+      "relevant_sources": [
+        "Retrieval-augmented.html"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "RAGAS.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-augmented.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 0.2,
+      "ndcg": 0.3869,
+      "context_precision": 0.2,
+      "faithfulness": 4,
+      "faithfulness_rationale": "The answer is mostly grounded in the context, with claims traceable to the provided sources, but minor unsupported details are present.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question of what Retrieval-Augmented Generation (RAG) is.",
+      "total_latency_ms": 1103.47,
+      "token_usage": {
+        "prompt_tokens": 4413,
+        "completion_tokens": 149,
+        "total_tokens": 4562
+      }
+    },
+    {
+      "question": "What are the two main components of a RAG system?",
+      "answer": "The two main components of a RAG system are:\n\n1. Retrieval: This component involves retrieving relevant documents from a database in response to a query [Source 3: Evaluation of Retrieval-Augmented Generation.pdf].\n2. Generation: This component involves generating accurate and in-depth responses that align with the query's intent and integrate the extracted information [Source 1: Evaluation of Retrieval-Augmented Generation.pdf].\n\nThese two components work together to enable the RAG system to provide informative and accurate responses to user queries.",
+      "relevant_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Retrieval-augmented.html"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "ndcg": 0.6309,
+      "context_precision": 0.2,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, with every claim traceable to the provided information about RAG systems.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question about the two main components of a RAG system.",
+      "total_latency_ms": 39863.21,
+      "token_usage": {
+        "prompt_tokens": 3751,
+        "completion_tokens": 105,
+        "total_tokens": 3856
+      }
+    },
+    {
+      "question": "What is RAGAS and what does it evaluate?",
+      "answer": "According to [Source 1: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf], RAGAs is not explicitly mentioned in the provided context. However, [Source 2: Evaluation of Retrieval-Augmented Generation.pdf] and [Source 3: Evaluation of Retrieval-Augmented Generation.pdf] mention that RAGAs is a benchmark that uses WikiEval, which is constructed by RAGAs [14]. \n\nRAGAs is a benchmark that evaluates WikiEval, which is a dataset constructed by RAGAs [14].",
+      "relevant_sources": [
+        "RAGAS.pdf"
+      ],
+      "retrieved_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "ndcg": 0.0,
+      "context_precision": 0.0,
+      "faithfulness": 3,
+      "faithfulness_rationale": "The answer makes a minor unsupported claim about RAGAs being a benchmark that uses WikiEval, which is constructed by RAGAs, but this is not directly supported by the provided context.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly addresses the question of what RAGAS is and what it evaluates.",
+      "total_latency_ms": 44174.96,
+      "token_usage": {
+        "prompt_tokens": 3933,
+        "completion_tokens": 113,
+        "total_tokens": 4046
+      }
+    },
+    {
+      "question": "What metrics does RAGAS use to evaluate RAG pipelines?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "RAGAS.pdf"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "ndcg": 0.0,
+      "context_precision": 0.0,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it explicitly states that it doesn't have enough information to answer the question.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question by stating that it lacks sufficient information to provide a response.",
+      "total_latency_ms": 41062.75,
+      "token_usage": {
+        "prompt_tokens": 3897,
+        "completion_tokens": 16,
+        "total_tokens": 3913
+      }
+    },
+    {
+      "question": "What is a vector database?",
+      "answer": "A vector database is a type of database that stores data as high-dimensional vectors, which are mathematical representations of features or attributes [Source 1: Vector database - Wikipedia.html].",
+      "relevant_sources": [
+        "Vector database - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 1.0,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, with every claim traceable to the provided sources.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question, providing a clear definition of a vector database.",
+      "total_latency_ms": 43781.5,
+      "token_usage": {
+        "prompt_tokens": 4081,
+        "completion_tokens": 36,
+        "total_tokens": 4117
+      }
+    },
+    {
+      "question": "How are vectors stored and retrieved in a vector database?",
+      "answer": "Vectors are stored and retrieved in a vector database by representing each data item as a vector in a high-dimensional space, where each dimension corresponds to a feature of the data [Source 4: Vector database - Wikipedia.html]. These feature vectors are computed from the raw data using machine learning methods such as feature extraction algorithms, word embeddings, or deep learning networks [Source 4: Vector database - Wikipedia.html]. The vectors are then stored in the database, and users can search for records semantically similar to a given input by using approximate nearest neighbor algorithms [Source 4: Vector database - Wikipedia.html].",
+      "relevant_sources": [
+        "Vector database - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html",
+        "Vector database - Wikipedia.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 1.0,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, with every claim traceable to the provided sources.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question of how vectors are stored and retrieved in a vector database.",
+      "total_latency_ms": 38711.36,
+      "token_usage": {
+        "prompt_tokens": 3716,
+        "completion_tokens": 121,
+        "total_tokens": 3837
+      }
+    },
+    {
+      "question": "What is the difference between sparse and dense retrieval?",
+      "answer": "Sparse retrieval methods rely on keyword matching and word frequency, but may miss semantically relevant documents without keyword overlap [Source 1: Evaluation of Retrieval-Augmented Generation.pdf]. On the other hand, dense retrieval methods can capture the semantic meaning of texts, allowing them to find relevant documents even when keyword overlap is minimal [Source 1: Evaluation of Retrieval-Augmented Generation.pdf]. This is achieved by leveraging deep learning models such as BERT [Source 1: Evaluation of Retrieval-Augmented Generation.pdf].\n\nIn terms of representation, sparse models utilize interpretable, term-based representations and typically rely on inverted index structures [Source 2: Information retrieval - Wikipedia.html]. In contrast, dense models represent queries and documents as continuous vectors using deep learning models, typically transformer-based encoders [Source 2: Information retrieval - Wikipedia.html].\n\nTherefore, the main difference between sparse and dense retrieval is that sparse retrieval relies on keyword matching and word frequency, while dense retrieval captures the semantic meaning of texts using deep learning models.",
+      "relevant_sources": [
+        "Information retrieval - Wikipedia.html",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Information retrieval - Wikipedia.html",
+        "Retrieval-augmented.html",
+        "Information retrieval - Wikipedia.html",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "ndcg": 0.6797,
+      "context_precision": 0.6,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, with every claim traceable to the provided text.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question, providing a clear explanation of the difference between sparse and dense retrieval.",
+      "total_latency_ms": 42223.18,
+      "token_usage": {
+        "prompt_tokens": 3926,
+        "completion_tokens": 205,
+        "total_tokens": 4131
+      }
+    },
+    {
+      "question": "What is BM25 and how does it work?",
+      "answer": "BM25 is a word overlap-based retrieval algorithm [Source 3: Large language model - Wikipedia.html]. It is used for document retrieval, where the goal is to find the most relevant documents given a query. BM25 works by encoding the query and the documents into vectors, then finding the documents with vectors most similar to the vector of the query. This is done by calculating a score based on the frequency of words in the query and the documents, as well as the length of the documents. The documents with the highest scores are then returned as the most relevant results.\n\nIn the context of the provided text, BM25 is compared to RAG's dense retriever in Table 6, where it is shown that BM25 performs best on the FEVER task, which is a classification task that involves entity-centric claims. This suggests that BM25 is well-suited for tasks that involve retrieving documents based on word overlap, such as FEVER.",
+      "relevant_sources": [
+        "Information retrieval - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Retrieval-augmented.html",
+        "Large language model - Wikipedia.html",
+        "Large language model - Wikipedia.html",
+        "Large language model - Wikipedia.html"
+      ],
+      "hit_rate": 0.0,
+      "mrr": 0.0,
+      "ndcg": 0.0,
+      "context_precision": 0.0,
+      "faithfulness": 4,
+      "faithfulness_rationale": "The answer mostly stays within the context, but mentions a table (Table 6) that is not explicitly provided.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly addresses the question about BM25 and how it works.",
+      "total_latency_ms": 38412.1,
+      "token_usage": {
+        "prompt_tokens": 3724,
+        "completion_tokens": 190,
+        "total_tokens": 3914
+      }
+    },
+    {
+      "question": "What are the limitations of large language models that RAG addresses?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "Large language model - Wikipedia.html",
+        "Retrieval-augmented.html"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Large language model - Wikipedia.html",
+        "RAGAS.pdf",
+        "Retrieval-augmented.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg": 0.5438,
+      "context_precision": 0.4,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it explicitly states that it doesn't have enough information to answer the question.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question by stating that it lacks sufficient information to provide a response.",
+      "total_latency_ms": 42351.3,
+      "token_usage": {
+        "prompt_tokens": 4157,
+        "completion_tokens": 16,
+        "total_tokens": 4173
+      }
+    },
+    {
+      "question": "What is hallucination in large language models?",
+      "answer": "Hallucinations in large language models represent a fundamental challenge, wherein models generate syntactically fluent text that appears factually sound, but is internally inconsistent with training data or factually incorrect [Source 1: Hallucinations represent a fundamental challenge, wherein models generate syntactically fluent text that appears factually sound, but is internally inconsistent with training data or factually incorrect.]. These hallucinations arise partly through memorization of training data combined with extrapolation beyond factual boundaries [Source 1: with evaluations demonstrating that models can output verbatim passages from training data, when subjected to specific prompting sequences.].",
+      "relevant_sources": [
+        "Large language model - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "Large language model - Wikipedia.html",
+        "RAGAS.pdf",
+        "Large language model - Wikipedia.html",
+        "Large language model - Wikipedia.html",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 0.906,
+      "context_precision": 0.6,
+      "faithfulness": 4,
+      "faithfulness_rationale": "The answer mostly stays within the context, but introduces minor unsupported detail about memorization of training data.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly addresses the question of hallucination in large language models.",
+      "total_latency_ms": 49350.02,
+      "token_usage": {
+        "prompt_tokens": 4796,
+        "completion_tokens": 123,
+        "total_tokens": 4919
+      }
+    },
+    {
+      "question": "How does the original RAG model by Lewis et al. work?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "retrieved_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 0.8529,
+      "context_precision": 0.6,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it explicitly states that it doesn't have enough information to answer the question.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question, providing a clear and concise response.",
+      "total_latency_ms": 39982.28,
+      "token_usage": {
+        "prompt_tokens": 4046,
+        "completion_tokens": 16,
+        "total_tokens": 4062
+      }
+    },
+    {
+      "question": "What datasets were used to evaluate the original RAG paper?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "retrieved_sources": [
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 0.2,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it explicitly states that it doesn't have enough information to answer the question.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question by stating that it lacks sufficient information to provide a response.",
+      "total_latency_ms": 38113.1,
+      "token_usage": {
+        "prompt_tokens": 3750,
+        "completion_tokens": 16,
+        "total_tokens": 3766
+      }
+    },
+    {
+      "question": "What is faithfulness in RAG evaluation?",
+      "answer": "Faithfulness in RAG evaluation refers to the idea that the answer should be grounded in the given context [Source 1: RAGAS.pdf]. This means that the answer should be based on the information present in the context, and not on any external knowledge or assumptions. Faithfulness is important to avoid hallucinations and to ensure that the retrieved context can act as a justification for the generated answer [Source 1: RAGAS.pdf].",
+      "relevant_sources": [
+        "RAGAS.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "retrieved_sources": [
+        "RAGAS.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 1.0,
+      "faithfulness": 4,
+      "faithfulness_rationale": "The answer is mostly grounded in the context, but minor unsupported detail is present.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question of faithfulness in RAG evaluation.",
+      "total_latency_ms": 39414.5,
+      "token_usage": {
+        "prompt_tokens": 3955,
+        "completion_tokens": 91,
+        "total_tokens": 4046
+      }
+    },
+    {
+      "question": "What is answer relevance in the context of RAG evaluation?",
+      "answer": "According to [Source 2: RAGAS.pdf], Answer Relevance refers to the idea that the generated answer should address the actual question that was provided.",
+      "relevant_sources": [
+        "RAGAS.pdf"
+      ],
+      "retrieved_sources": [
+        "RAGAS.pdf",
+        "RAGAS.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 0.4,
+      "faithfulness": 3,
+      "faithfulness_rationale": "The answer is mostly grounded, as it references a source, but it does not provide any direct evidence from the context to support its claim.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly addresses the question of what answer relevance is in the context of RAG evaluation.",
+      "total_latency_ms": 40225.58,
+      "token_usage": {
+        "prompt_tokens": 4010,
+        "completion_tokens": 33,
+        "total_tokens": 4043
+      }
+    },
+    {
+      "question": "What are common failure modes in RAG systems?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-augmented.html"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 0.9047,
+      "context_precision": 0.8,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it explicitly states that it doesn't have enough information to answer the question.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question by stating that it lacks sufficient information to provide a response.",
+      "total_latency_ms": 39178.68,
+      "token_usage": {
+        "prompt_tokens": 3811,
+        "completion_tokens": 16,
+        "total_tokens": 3827
+      }
+    },
+    {
+      "question": "What is context precision in retrieval evaluation?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "RAGAS.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "retrieved_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "RAGAS.pdf",
+        "RAGAS.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 1.0,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it states that it doesn't have enough information to answer the question, which is a direct consequence of the provided context.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly addresses the question by stating that it doesn't have enough information to answer it, which is a complete and relevant response.",
+      "total_latency_ms": 39999.06,
+      "token_usage": {
+        "prompt_tokens": 3952,
+        "completion_tokens": 16,
+        "total_tokens": 3968
+      }
+    },
+    {
+      "question": "How does embedding based retrieval differ from keyword search?",
+      "answer": "Embedding-based retrieval differs from keyword search in that it captures the semantic meaning of texts, allowing it to find relevant documents even when keyword overlap is minimal [Source 2: Evaluation of Retrieval-Augmented Generation.pdf]. This is crucial for complex queries that require a contextual understanding to retrieve accurate information. Embedding-based retrieval uses deep learning models, such as BERT, to encode documents into dense vectors, which are then indexed using an Approximate Nearest Neighbor (ANN) search technique [Source 2: Evaluation of Retrieval-Augmented Generation.pdf]. In contrast, keyword search relies on keyword matching and word frequency, which may miss semantically relevant documents without keyword overlap [Source 2: Evaluation of Retrieval-Augmented Generation.pdf].",
+      "relevant_sources": [
+        "Information retrieval - Wikipedia.html",
+        "Vector database - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "Information retrieval - Wikipedia.html",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf",
+        "Information retrieval - Wikipedia.html",
+        "Vector database - Wikipedia.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 0.8529,
+      "context_precision": 0.6,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, with specific references to the provided text.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question, providing a clear explanation of the difference between embedding-based retrieval and keyword search.",
+      "total_latency_ms": 35239.8,
+      "token_usage": {
+        "prompt_tokens": 3530,
+        "completion_tokens": 149,
+        "total_tokens": 3679
+      }
+    },
+    {
+      "question": "What is the role of chunk size in RAG performance?",
+      "answer": "I don't have enough information in the provided context to answer this question.\n\nHowever, I can tell you that chunking is mentioned in the context as a strategy for breaking up data into vectors so the retriever can find details in it. But the role of chunk size in RAG performance is not explicitly mentioned.",
+      "relevant_sources": [
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-augmented.html"
+      ],
+      "retrieved_sources": [
+        "Retrieval-augmented.html",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "context_precision": 0.8,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it only mentions information present in the provided text.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly addresses the question, providing a clear explanation of the role of chunk size in RAG performance.",
+      "total_latency_ms": 36051.81,
+      "token_usage": {
+        "prompt_tokens": 3606,
+        "completion_tokens": 64,
+        "total_tokens": 3670
+      }
+    },
+    {
+      "question": "What is NDCG and how is it used in information retrieval?",
+      "answer": "I don't have enough information in the provided context to answer this question.",
+      "relevant_sources": [
+        "Information retrieval - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "Retrieval-augmented.html",
+        "Information retrieval - Wikipedia.html",
+        "Information retrieval - Wikipedia.html",
+        "Evaluation of Retrieval-Augmented Generation.pdf",
+        "Information retrieval - Wikipedia.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "ndcg": 0.7123,
+      "context_precision": 0.6,
+      "faithfulness": 5,
+      "faithfulness_rationale": "The answer is fully grounded in the context, as it explicitly states that it doesn't have enough information to answer the question.",
+      "relevance": 5,
+      "relevance_rationale": "The answer directly and completely addresses the question by stating that it lacks sufficient information to provide a response.",
+      "total_latency_ms": 31976.04,
+      "token_usage": {
+        "prompt_tokens": 3166,
+        "completion_tokens": 16,
+        "total_tokens": 3182
+      }
+    },
+    {
+      "question": "What are the advantages of using open source LLMs over proprietary ones?",
+      "answer": "I don't have enough information in the provided context to answer this question.\n\nHowever, I can infer that open-weight models, such as Mistral AI's open-weight models Mistral 7B and Mixtral 8x7B, have a more permissive Apache License, which may be an advantage over proprietary models. Additionally, community-driven contributions to open-weight models improve their efficiency and performance via collaborative platforms such as Hugging Face, which may also be an advantage.",
+      "relevant_sources": [
+        "Large language model - Wikipedia.html"
+      ],
+      "retrieved_sources": [
+        "README1.md",
+        "Large language model - Wikipedia.html",
+        "Large language model - Wikipedia.html",
+        "Large language model - Wikipedia.html",
+        "Large language model - Wikipedia.html"
+      ],
+      "hit_rate": 1.0,
+      "mrr": 0.5,
+      "ndcg": 0.7606,
+      "context_precision": 0.8,
+      "faithfulness": 3,
+      "faithfulness_rationale": "The answer makes minor unsupported claims about open-weight models, but does not fully ground its statements in the provided context.",
+      "relevance": 3,
+      "relevance_rationale": "The answer partially addresses the question, but does not directly and completely answer it, as it does not provide a clear comparison of open source LLMs and proprietary ones.",
+      "total_latency_ms": 38171.93,
+      "token_usage": {
+        "prompt_tokens": 3800,
+        "completion_tokens": 97,
+        "total_tokens": 3897
+      }
+    }
+  ]
+}

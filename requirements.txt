@@ -1,0 +1,15 @@
+chromadb
+faiss-cpu
+sentence-transformers
+pypdf
+beautifulsoup4
+fastapi
+uvicorn
+python-dotenv
+groq
+langchain
+langchain-community
+langchain-groq
+pandas
+numpy
+tqdm

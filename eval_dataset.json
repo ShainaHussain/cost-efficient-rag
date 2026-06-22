@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is retrieval augmented generation?",
+    "relevant_sources": ["Retrieval-augmented.html"]
+  },
+  {
+    "question": "What are the two main components of a RAG system?",
+    "relevant_sources": ["Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf", "Retrieval-augmented.html"]
+  },
+  {
+    "question": "What is RAGAS and what does it evaluate?",
+    "relevant_sources": ["RAGAS.pdf"]
+  },
+  {
+    "question": "What metrics does RAGAS use to evaluate RAG pipelines?",
+    "relevant_sources": ["RAGAS.pdf"]
+  },
+  {
+    "question": "What is a vector database?",
+    "relevant_sources": ["Vector database - Wikipedia.html"]
+  },
+  {
+    "question": "How are vectors stored and retrieved in a vector database?",
+    "relevant_sources": ["Vector database - Wikipedia.html"]
+  },
+  {
+    "question": "What is the difference between sparse and dense retrieval?",
+    "relevant_sources": ["Information retrieval - Wikipedia.html", "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"]
+  },
+  {
+    "question": "What is BM25 and how does it work?",
+    "relevant_sources": ["Information retrieval - Wikipedia.html"]
+  },
+  {
+    "question": "What are the limitations of large language models that RAG addresses?",
+    "relevant_sources": ["Large language model - Wikipedia.html", "Retrieval-augmented.html"]
+  },
+  {
+    "question": "What is hallucination in large language models?",
+    "relevant_sources": ["Large language model - Wikipedia.html"]
+  },
+  {
+    "question": "How does the original RAG model by Lewis et al. work?",
+    "relevant_sources": ["Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"]
+  },
+  {
+    "question": "What datasets were used to evaluate the original RAG paper?",
+    "relevant_sources": ["Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf"]
+  },
+  {
+    "question": "What is faithfulness in RAG evaluation?",
+    "relevant_sources": ["RAGAS.pdf", "Evaluation of Retrieval-Augmented Generation.pdf"]
+  },
+  {
+    "question": "What is answer relevance in the context of RAG evaluation?",
+    "relevant_sources": ["RAGAS.pdf"]
+  },
+  {
+    "question": "What are common failure modes in RAG systems?",
+    "relevant_sources": ["Evaluation of Retrieval-Augmented Generation.pdf", "Retrieval-augmented.html"]
+  },
+  {
+    "question": "What is context precision in retrieval evaluation?",
+    "relevant_sources": ["RAGAS.pdf", "Evaluation of Retrieval-Augmented Generation.pdf"]
+  },
+  {
+    "question": "How does embedding based retrieval differ from keyword search?",
+    "relevant_sources": ["Information retrieval - Wikipedia.html", "Vector database - Wikipedia.html"]
+  },
+  {
+    "question": "What is the role of chunk size in RAG performance?",
+    "relevant_sources": ["Evaluation of Retrieval-Augmented Generation.pdf", "Retrieval-augmented.html"]
+  },
+  {
+    "question": "What is NDCG and how is it used in information retrieval?",
+    "relevant_sources": ["Information retrieval - Wikipedia.html"]
+  },
+  {
+    "question": "What are the advantages of using open source LLMs over proprietary ones?",
+    "relevant_sources": ["Large language model - Wikipedia.html"]
+  }
+]
