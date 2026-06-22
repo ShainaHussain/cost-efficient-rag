@@ -40,7 +40,7 @@ rag-assignment/
 
 └── results/
 
-└── eval_results.json  # full evaluation output
+└── eval_results.json 
 ---
 
 ## Setup
@@ -112,16 +112,14 @@ All config via `.env` — no hardcoded values anywhere in the codebase.
 
 Full results in `results/eval_results.json`. Summary:
 
-| Hit Rate             | 0.85       |
-| MRR                  | 0.68       |
-| nDCG@5               | 0.71       |
-| Context Precision    | 0.54       |
-| Avg Faithfulness     | 4.5 / 5    |
-| Avg Relevance        | 4.9 / 5    |
-| p50 Latency (eval)   | ~40s*      |
-| Single query latency | ~1.8s      |
-
-*Fill these in after running `python evaluate.py`*
+| Hit Rate                   | 0.85       |
+| MRR                        | 0.68       |
+| nDCG@5                     | 0.71       |
+| Context Precision          | 0.54       |
+| Avg Faithfulness           | 4.5 / 5    |
+| Avg Relevance              | 4.9 / 5    |
+| p50 Latency (eval)         | ~40s*      |
+| Single query latency       | ~1.8s      |
 
 ---
 
